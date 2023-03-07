@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctame</title>
+    <link rel="stylesheet" href="../css/estilo_general.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/png" href="../imagenes/icono_kr.png">
+</head>
+<body>
+    <div class="encabezado">
+        <h1 style="padding-top: 55px;">Queremos conocerte, llena el formulario &#128525</h1>
+   </div>
+   <div class="backHome">
+        <a href="../inicio.html">
+            <i class="material-icons">home</i>
+            Volver a Inicio
+        </a>
+   </div>
+   <br>
+
+    <h1 style="text-decoration: underline solid red 6px;">Formulario de Registro para Contactar a Kevin Ruiz</h1>
+    <br>
+
+    <div id="formulario">
+        <img class="formulario" src="../imagenes/formulario.jpg" alt="Imagen de un Formulario">
+        <form action="registrocontacto.php" method="post">
+            Nombre completo: *
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            Apellidos: *
+            <input type="text" name="lastname" id="lastname" required>
+            <br>
+            <br>
+            Edad:
+            <input type="number" value="18" name="years" id="years"
+                min="18" max="90">
+            <br>
+            <br>
+            Color Favorito:
+            <input type="color" name="color" id="color">
+            <br>
+            <br>
+            Correo Electrónico: *
+            <input type="email" size="50" name="email" id="email" required>
+            <br>
+            <br>
+            Comentarios:
+            <input type="text" size="120px" name="coments" id="coments">
+            <br>
+            <br>
+            Enviar Formulario
+            <input type="submit" value="Contactar a Kevin Ruiz">
+        </form>
+    </div>
+</body>
+</html>

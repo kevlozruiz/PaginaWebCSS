@@ -1,0 +1,86 @@
+body{
+    background-image: url("../imagenes/fondo_web.png");
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+}
+
+.encabezado{
+    background-color: rgb(40, 112, 175);
+    height: 160px;
+    width: auto;
+}
+
+.backHome{
+    width: auto;
+    height: 10px;
+    vertical-align: middle;
+}
+div.backHome{
+    text-align: left;
+}
+
+.botones {
+    display: inline;
+}
+
+a:link, a:visited {
+    background-color: #1812b3ca;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: navy;
+  }
+
+  .acercaMi{
+    width: auto;
+    height: 550px;
+    border: 6px solid white;
+    background-color: rgba(244, 244, 244, 0.237); 
+    padding: 5px;
+    overflow: auto;
+  }
+  
+  #fotoPerfil {
+    float: left;
+  }
+
+  p.parrafoSobreMi{
+    text-align: justify;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+
+  ol{
+    list-style: square;
+    text-align: left
+  }
+
+  servicios{
+    display: block;
+    text-align: left;
+  }
+
+  #formulario{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgba(56, 39, 147, 0.44);
+    width: 850px;
+    text-align: left;
+    overflow: auto;
+  }
+
+  img.formulario{
+    float: right;
+    width: 250px;
+  }

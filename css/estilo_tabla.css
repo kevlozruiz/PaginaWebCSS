@@ -1,0 +1,26 @@
+table{
+    width: 95%;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: gray;
+}
+
+table,tr,th,td {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px white dotted;
+}
+
+img{
+    width: 220px;
+    height: 200px;
+}
+
+video,iframe{
+    width: 450px;
+    height: 250px;
+}
+
+td, th{
+   padding: 10px;
+}
